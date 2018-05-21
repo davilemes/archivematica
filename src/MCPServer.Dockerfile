@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python/python:2.7
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DJANGO_SETTINGS_MODULE settings.common
