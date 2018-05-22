@@ -1,1 +1,1 @@
-MCPClient.Dockerfile
+MCPServer.Dockerfile
