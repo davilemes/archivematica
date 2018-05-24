@@ -52,7 +52,7 @@ COPY archivematicaCommon/ /src/archivematicaCommon/
 COPY dashboard/ /src/dashboard/
 COPY dashboard/install/dashboard.gunicorn-config.py /etc/archivematica/dashboard.gunicorn-config.py
 
-USER archivematica
+#USER archivematica
 
 RUN env \
 	DJANGO_SETTINGS_MODULE=settings.local \
